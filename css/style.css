@@ -23,10 +23,10 @@ html, body {
     height: 100%;
 }
 
-.intro {
+.about {
     position: relative;
     height: 600px;
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
 }
 .header {
     height: 80px;
@@ -112,4 +112,8 @@ html, body {
 
 .main button.btn.btn-secondary:hover i {
     transform: translateX(5px);
+}
+
+.about .content {
+    
 }
