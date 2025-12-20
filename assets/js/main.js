@@ -231,10 +231,17 @@
    * Download CV
    */
 
-  document.getElementById("downloadCV").addEventListener("click", function () {
+  document.getElementById("downloadCV_vi").addEventListener("click", function () {
     const link = document.createElement("a");
-    link.href = "assets/files/my_CV.pdf"; // đường dẫn đến file CV của bạn
-    link.download = "Phan Van Manh.pdf"; // tên file khi tải về (bạn có thể đổi)
+    link.href = "assets/files/Phan-Van-Manh_(vi).pdf";
+    link.download = "Phan Văn Mạnh - Kỹ sư cơ khí.pdf";
+    link.click();
+  });
+
+  document.getElementById("downloadCV_en").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "assets/files/Phan-Van-Manh_(en).pdf";
+    link.download = "Phan Van Manh - Mechanical Engineer.pdf";
     link.click();
   });
 
